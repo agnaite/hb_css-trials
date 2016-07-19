@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+    <title>005.html</title>
+    <style type="text/css">
+    body{
+        margin: 0;
+    }
+    .bigbox {
+        width: 350px;
+        height: 200px;
+        background-color: red;
+
+
+    }
+    #blue {
+        background-color: blue;
+        display: inline-block;
+    }
+    .blackbox {
+        width: 100px;
+        height: 100px;
+        background-color: black;
+        display: inline-block;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    #leftbox {
+        margin-left: 45px;
+        margin-right: 25px;
+
+    }
+    #rightbox {
+        margin-right: 45px;
+        margin-left: 25px;
+    }
+    </style>
+</head>
+<body>
+    <div class="bigbox">
+        <div class="blackbox" id="leftbox"></div><div class="blackbox" id="rightbox"></div>
+    </div>
+    <div class="bigbox" id="blue">
+        <div class="blackbox" id="leftbox"></div><div class="blackbox" id="rightbox"></div>
+    </div>
+</body>
+</html>
